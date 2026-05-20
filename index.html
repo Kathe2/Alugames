@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluGames</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AluGames</h1>
+  </header>
+
+  <div class="title">Aluguel de <strong class="colorido">boardgames</strong></div>
+
+  <div class="games">
+    <div class="card" id="card-1">
+      <img src="./assets/Monopoly.jpg" alt="Monopoly" height="170px">
+      <h3>Monopoly</h3>
+      <button onclick="alterarStatus(1)" id="game-1" class="btn btn-alugar">Alugar</button>
+    </div>
+
+    <div class="card" id="card-2">
+      <img src="./assets/Ticket to Ride.jpg" alt="Ticket to Ride">
+      <h3>Ticket to Ride</h3>
+      <button onclick="alterarStatus(2)" id="game-2" class="btn btn-alugar">Alugar</button>
+    </div>
+
+    <div class="card" id="card-3">
+      <img src="./assets/Takenoko.jpg" alt="Takenoko">
+      <h3>Takenoko</h3>
+      <button onclick="alterarStatus(3)" id="game-3" class="btn btn-alugar">Alugar</button>
+    </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
